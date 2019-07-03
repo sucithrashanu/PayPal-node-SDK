@@ -187,7 +187,7 @@ NOCK_OFF=true mocha -t 60000
    * The error object returned for any bad request has error.response populated with [details](https://developer.paypal.com/docs/api/payments/#errors). PAYPAL_DEBUG=1 setting also gives you access to stringfied response in error messages.
 
 ## Reference
-   [REST API Reference] (https://developer.paypal.com/webapps/developer/docs/api/)
+[REST API Reference](https://developer.paypal.com/webapps/developer/docs/api/)
 
 ## Contribution
    * If you would like to contribute, please fork the repo and send in a pull request.
