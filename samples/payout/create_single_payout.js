@@ -31,9 +31,7 @@ var create_payout_json = {
     ]
 };
 
-var sync_mode = 'true';
-
-paypal.payout.create(create_payout_json, sync_mode, function (error, payout) {
+paypal.payout.create(create_payout_json, function (error, payout) {
     if (error) {
         console.log(error.response);
         throw error;
